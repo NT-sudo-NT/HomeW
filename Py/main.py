@@ -21,3 +21,5 @@ def find_repeated_chars(s):
         else:
             char_count[char] = 1
     return {char: count for char, count in char_count.items() if count > 1}
+
+# Комментарий. 
